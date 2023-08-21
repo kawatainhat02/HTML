@@ -1,0 +1,40 @@
+{Curl 7.0, 8.0 applet}
+ {text
+    color = "blue",
+    font-size = 16pt,
+    Hello World}
+
+
+{paragraph
+    paragraph-left-indent=0.5in,
+    {text color = "red", font-size = 12pt,
+      Hello}
+    {text color = "green", font-size = 12pt,
+      World}}
+
+
+
+
+{CommandButton width=100pt,
+    height = 50pt,
+    label = {center {bold Invokes an event handler when clicked}},
+    control-color = "orange",
+    || Attach the following event handler to this CommandButton
+    {on Action do
+        {popup-message
+            title = "Your Message",
+            "This is a user message dialog."
+        }
+    }}
+
+{text A comment can be on a line by itself,
+ || A comment on a line by itself
+ or it can be at the end || A comment on the same line as code
+ of a line.}
+
+{poem || wraps entire poem
+    {stanza  || first verse here in any language
+    }
+    {stanza  || another verse here in any language
+    }
+ }
