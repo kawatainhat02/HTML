@@ -1,0 +1,9 @@
+myPerson name:'Ti'
+'Hello, World!' print.
+valid: base bottom
+          between: ligature bottom + height
+          And: base top / scale factor.
+          labelWidget copy label: 'Hello, World!'.
+
+          _AddSlots: (| sportsCar <- vehicle copy |).
+sportsCar _AddSlots: (| driveToWork = (''some code, this is a method'') |).
